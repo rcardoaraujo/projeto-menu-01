@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* --TABLET-- */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    /* header */
+    span#icone {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+
+    header h1 {
+        padding: 35px 0px;
+    }
+
+    menu {
+        display: flex;
+    }
+
+    menu ul {
+        display: flex;
+    }
+
+    menu li {
+        background: none;
+    }
+
+    menu li:hover {
+        background: none;
+        color: rgb(34, 34, 34);
+    }
+
+    menu a {
+        color: white;
+    }
+
+    li.botao-verde {
+        display: inline-block;
+        background: linear-gradient(to bottom, rgb(235, 235, 235), white);
+        border-radius: 4px;
+        color: black;
+    }
+
+    li.botao-verde:hover {
+        background: linear-gradient(to bottom, rgb(235, 235, 235) 90%, var(--cor01) 10%);
+        border-radius: 4px;
+        color: rgb(99, 99, 99);
+    }
+
+    /* main */
+
+    main {
+        font-size: 1.3em;
+        height: calc(100vh - 108px);
+    }
+
+    section.texto-principal {
+        width: 60vw;
+        padding: 70px 40px;
+    }
+}
+
+/* PC & ACIMA */
+
+@media screen and (min-width:992px) {
+
+        /* header */
+        span#icone {
+            display: none;
+        }
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px;
+        }
+    
+        header h1 {
+            padding: 35px 0px;
+        }
+    
+        menu {
+            display: flex;
+        }
+    
+        menu ul {
+            display: flex;
+        }
+    
+        menu li {
+            background: none;
+        }
+    
+        menu li:hover {
+            background: none;
+            color: rgb(34, 34, 34);
+        }
+    
+        menu a {
+            color: white;
+        }
+    
+        li.botao-verde {
+            display: inline-block;
+            background: linear-gradient(to bottom, rgb(235, 235, 235), white);
+            border-radius: 4px;
+            color: black;
+        }
+    
+        li.botao-verde:hover {
+            background: linear-gradient(to bottom, rgb(235, 235, 235) 90%, var(--cor01) 10%);
+            border-radius: 4px;
+            color: rgb(99, 99, 99);
+        }
+    
+        /* main */
+    
+        main {
+            font-size: 1.3em;
+            height: calc(100vh - 108px);
+        }
+    
+        section.texto-principal {
+            width: 50vw;
+            padding: 70px 40px;
+        }
+    }

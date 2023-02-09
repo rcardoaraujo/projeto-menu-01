@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo Teste</title>
+
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- MOBILE FIRST -->
+    <link rel="stylesheet" href="estilos/mobile-first.css" media="all">
+
+    <!-- MEDIA QUERIES -->
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">logo</a>
+        </h1>
+        <span id="icone" onclick="clickMenu()" class="material-symbols-outlined">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <a href="#"><li>home</li></a>
+                <a href="#"><li>about us</li></a>
+                <a href="#"><li>services</li></a>
+                <a href="#"><li>contact</li></a>
+                <a href="#"><li class="botao-verde">get started</li></a>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section class="texto-principal">
+            <h1>
+                Financial And Marketing Advisory
+            </h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus laboriosam optio hic veritatis voluptatem eveniet voluptatibus incidunt quisquam error vitae, id ullam nobis quos dicta corrupti? Nisi fugit nostrum enim!
+            </p>
+            <button>
+                contact us
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>
+            desenvolvido por <span class="nome-footer"><a href="https://rcardoaraujo.github.io">dinhodev</a></span>
+        </p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
